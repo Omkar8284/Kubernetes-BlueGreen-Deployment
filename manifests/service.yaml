@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     app: demo-app
-    version: blue   # change to green to switch traffic
+    version: blue  # change to green to switch traffic
   ports:
     - protocol: TCP
       port: 80
